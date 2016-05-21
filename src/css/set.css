@@ -1,0 +1,29 @@
+body {
+	font-family: sans-serif;
+}
+::-moz-selection {
+	color: #900870;
+	text-shadow: none;
+	background: #fdd749;
+}
+::selection {
+	color: #900870;
+	text-shadow: none;
+	background: #fdd749;
+}
+a:not([href^="#"]) {
+	-webkit-tap-highlight-color: #fdd749;
+	-moz-tap-highlight-color: #fdd749;
+	-ms-tap-highlight-color: #fdd749;
+	-o-tap-highlight-color: #fdd749;
+	tap-highlight-color: #fdd749;
+}
+
+
+/* FONTS */
+
+
+
+
+/* ANIMATIONS */
+
