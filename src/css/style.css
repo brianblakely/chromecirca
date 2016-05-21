@@ -1,0 +1,152 @@
+@import url("reset.css");
+@import url("set.css");
+
+
+.cr {
+	color: #fdd749;
+}
+#browser.cr > div {
+	background: #fdd749;
+}
+.ie {
+	color: #03b0f2;
+}
+#browser.ie > div {
+	background: #03b0f2;
+}
+.saf {
+	color: #c9c9c9;
+}
+#browser.saf > div {
+	background: #c9c9c9;
+}
+.ff {
+	color: #d76b28;
+}
+#browser.ff > div {
+	background: #d76b28;
+}
+.o {
+	color: #cc071f;
+}
+#browser.o > div {
+	background: #cc071f;
+}
+.i {
+	color: #c9c9c9;
+}
+#browser.i > div {
+	background: #c9c9c9;
+}
+.an {
+	color: #90bd4e;
+}
+#browser.an > div {
+	background: #90bd4e;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0.75em 0.5em;
+	max-width: 800px;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	background: #900870;
+}
+
+output {
+	white-space: nowrap;
+}
+#browser-name {
+	width: 0.75em;
+}
+#browser > div {
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	line-height: 2em;
+	border-radius: 999em;
+}
+#browser-version {
+	font-size: 0.75em;
+	color: #fff;
+}
+#approx {
+	margin: 0 0.5rem;
+	line-height: 0.6;
+	font-family: Arial;
+	font-size: 3em;
+}
+#chrome span {
+	font-size: 1rem;
+	color: #fff;
+}
+time {
+	width: 4rem;
+	height: 4rem;
+	text-align: center;
+	line-height: 1rem;
+	background: #F37DD7;
+	border-radius: 999rem;
+}
+time span span {
+	display: block;
+	line-height: 1.33em;
+	font-size: 1rem;
+}
+@media (max-width: 320px) {
+	#approx {
+		margin: 0;
+		font-size: 2.3em;
+	}
+}
+
+#select {
+	display: block;
+	margin: 0.75em 0 0;
+}
+#select > span {
+	margin: 0 0.25em;
+	border-top: 0.25em solid transparent;
+	width: 0.75em;
+	cursor: pointer;
+}
+#select > span.pressed {
+	border-color: currentColor;
+}
+@media (min-width: 1025px) {
+	#select > span:hover {
+		border-color: currentColor;
+	}
+}
+
+#info {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: justify;
+}
+p {
+	display: block;
+	margin: 2em 0 0;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	font-size: 1rem;
+}
+a {
+	color: #F37DD7;
+	text-decoration: underline;
+}
+#author {
+	font-size: 0.8rem;
+}
+#author img {
+	height: 1em;
+	border-radius: 0.15em;
+}
+
+
+@media print {
+
+}
